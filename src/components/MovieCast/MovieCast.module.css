@@ -1,0 +1,10 @@
+.castList {
+  color: black;
+  margin-left: 0;
+  justify-content: left;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: left;
+  font-style: italic;
+  list-style-type: none;
+}

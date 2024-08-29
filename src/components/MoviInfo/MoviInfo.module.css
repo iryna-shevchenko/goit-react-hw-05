@@ -1,0 +1,46 @@
+.wrapper {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: beige;
+  max-width: 1200px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+.wrapper:hover {
+  background-color: #e9e9e9;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.imgBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+}
+.title {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(5, 5, 206);
+  margin-top: 20px;
+}
+
+.infoList {
+  border: 2px solid blue;
+  text-align: left;
+  list-style-type: none;
+  padding: 20px;
+}
+.infoListItem {
+  margin-bottom: 10px;
+  color: #161515;
+  font-size: 20px;
+}
+.span {
+  font-weight: 700;
+  font-size: 24px;
+  color: blue;
+}

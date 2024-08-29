@@ -1,0 +1,7 @@
+.reviewsList {
+  composes: castList from "../MovieCast/MovieCast.module.css";
+}
+.reviewsListItem {
+  line-height: 1, 5;
+  margin-bottom: 20px;
+}
